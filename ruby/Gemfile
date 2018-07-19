@@ -17,7 +17,7 @@ gem 'faraday', '~> 0.12'
 gem 'licensee', '~> 8.9.0'
 
 # Locked until https://github.com/google/protobuf/issues/4210 is closed
-gem 'google-protobuf', '= 3.5.1'
+gem 'google-protobuf', '= 3.6.0'
 
 group :development, :test do
   gem 'gitlab-styles', '~> 2.0.0', require: false
